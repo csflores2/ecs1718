@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Hello...</title>
+<style type="text/css">
+#mainContent {
+	font-family: Courier;
+	font-size: xx-large;
+	font-weight: bold;
+	background-color: #F09;
+	border-radius: 4px;
+	padding: 50px;
+	text-align: center;
+}
+.buttonStyle {
+	border-radius: 	10px;
+	background-color: #9F0;
+	font-family: Courier;
+	font-weight: bold;
+	color: #663300;
+	width: 100px;
+}
+
+.buttonStyle:hover {
+	border: thin solid #FFCC00;
+	color: #116633;
+	cursor: pointer;
+}
+.buttonStyle:active {
+	border: thin solid #99CC00;
+	background-color: #F5FFD2;
+	color: #669900;
+	cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+<div id="mainContent">
+<p id="helloText">?</p>
+<button id="clickButton" class="buttonStyle">click me</button>
+</div>
+<script> 
+var myButton = document.getElementById("clickButton");
+var myText = document.getElementById("helloText");
+
+myButton.addEventListener('click', doSomething, false)
+
+function doSomething() {
+	myText.textContent = "hello, world!";
+}
+</script>
+
+</body>
+</html>
