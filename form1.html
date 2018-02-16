@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=Turn In]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+<body>
+  <h3>Computer Science Student Information</h3>
+<div>
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="your first name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="your last name..">
+    
+    <label for="email">Student Email Address</label>
+    <input type="text" id="email" name="email" placeholder="your email address..">
+    
+    <label for="studentid">Student ID</label>
+    <input type="text" id="studentid" name="studentid" placeholder="your student ID..">
+
+    <label for="Period">Period</label>
+    <select id="Period" name="Period">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+    </select>
+  
+    <input type="Turn In" value="Turn In">
+  </form>
+</div>
+</body>
+</html>
