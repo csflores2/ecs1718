@@ -1,5 +1,10 @@
 h1 {font-family: fantasy;}
-li {font-family: fantasy;}
+li {font-family: fantasy; font-size: large;}
 h3 {font-family: fantasy; text-align: center; color: #fc4445;}
-p {font-family: fantasy; color: #fc4445;}
+p {font-family: fantasy; color: #fc4445; font-size: large}
 body {background-color: #3500d3;}
+h2 {font-family: fantasy; color: #fc4445; font-size: xx-large}
+ul {font-family: fantasy; color: #fc4445; font-size: large} 
+h4 {font-family: fantasy; color: #fc4445; font-size: xx-large}
+h5 {font-family: fantasy; color: #fc4445; font-size: xx-large}
+a {font-family: fantasy; color: #fc4445; font-size: large}
